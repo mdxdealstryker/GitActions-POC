@@ -23,6 +23,6 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore Git-Actions-Web.sln
     - name: Build
-      run: dotnet build Git-Actions-Poc.csproj --no-restore
+      run: dotnet build Git-Actions-POC.csproj --no-restore
     - name: Test
-      run: dotnet test Git-Actions-Poc.csproj --no-build --verbosity normal
+      run: dotnet test Git-Actions-POC.csproj --no-build --verbosity normal
